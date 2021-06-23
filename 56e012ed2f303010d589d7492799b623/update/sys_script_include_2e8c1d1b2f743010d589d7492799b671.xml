@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_655585_whmg.SwitchToClosed</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>SwitchToClosed</name>
+        <script><![CDATA[var SwitchToClosed = Class.create();
+SwitchToClosed.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	closeOrder: function() {
+		gs.log("1");
+		var idList = this.getParameter("sysparm_ids");
+		var order = new GlideRecord('x_655585_whmg_order');
+		for(var i=0; i<idList.lenght; i++)
+		{
+			order.addQuery('sys_id', idList[i]);
+			order.query();
+			order.next();
+			gs.log("pippo");
+			gs.log(order.sys_id);
+		}
+		return 0;
+	}
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>marco.vella</sys_created_by>
+        <sys_created_on>2021-06-22 15:23:53</sys_created_on>
+        <sys_id>2e8c1d1b2f743010d589d7492799b671</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>SwitchToClosed</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sys_script_include_2e8c1d1b2f743010d589d7492799b671</sys_update_name>
+        <sys_updated_by>marco.vella</sys_updated_by>
+        <sys_updated_on>2021-06-22 15:55:16</sys_updated_on>
+    </sys_script_include>
+</record_update>

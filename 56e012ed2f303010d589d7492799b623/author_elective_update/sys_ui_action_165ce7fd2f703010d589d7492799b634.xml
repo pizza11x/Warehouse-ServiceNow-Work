@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name/>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function newItem(){
+	var item = new GlideRecord('x_655585_whmg_list_items');
+	item.initialize();
+	item.id='pippo';
+	
+	item.insert();
+}
+]]></client_script_v2>
+        <comments/>
+        <condition>current.isValidRecord() &amp;&amp; current.canWrite() &amp;&amp; gs.getProperty('glide.ui.update_is_submit') != 'true'</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>true</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Move to warehouse</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var valid = new SNC.OIDCProviderTester().testProvider(current.sys_id, current.name, current.oidc_url, current.oidc_config_cache_life_span, current.user_claim); 
+if ( valid < 0) 
+	current.setAbortAction(true);
+else 
+	current.update();
+
+if (valid  > 0)
+	action.setRedirectURL(current);
+	
+
+]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>marco.vella</sys_created_by>
+        <sys_created_on>2021-06-18 10:02:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>165ce7fd2f703010d589d7492799b634</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name>Move to warehouse</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sys_ui_action_165ce7fd2f703010d589d7492799b634</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-18 12:58:56</sys_updated_on>
+        <table>x_655585_whmg_wares</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</application>
+        <file_path/>
+        <instance_id>7b2064f9dbbb13404f035d00cf96199d</instance_id>
+        <instance_name>dev69466</instance_name>
+        <name>sys_ui_action_165ce7fd2f703010d589d7492799b634</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function newItem(){
+	var item = new GlideRecord('x_655585_whmg_list_items');
+	item.initialize();
+	item.id='pippo';
+	
+	item.insert();
+}
+]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;current.isValidRecord() &amp;amp;&amp;amp; current.canWrite() &amp;amp;&amp;amp; gs.getProperty('glide.ui.update_is_submit') != 'true'&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;true&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Move to warehouse&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[var valid = new SNC.OIDCProviderTester().testProvider(current.sys_id, current.name, current.oidc_url, current.oidc_config_cache_life_span, current.user_claim); 
+if ( valid &lt; 0) 
+	current.setAbortAction(true);
+else 
+	current.update();
+
+if (valid  &gt; 0)
+	action.setRedirectURL(current);
+	
+
+]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;marco.vella&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-18 10:02:41&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;165ce7fd2f703010d589d7492799b634&lt;/sys_id&gt;&lt;sys_mod_count&gt;36&lt;/sys_mod_count&gt;&lt;sys_name&gt;Move to warehouse&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Warehouse Management" source="x_655585_whmg"&gt;56e012ed2f303010d589d7492799b623&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Warehouse Management"&gt;56e012ed2f303010d589d7492799b623&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_165ce7fd2f703010d589d7492799b634&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-18 12:58:56&lt;/sys_updated_on&gt;&lt;table&gt;x_655585_whmg_wares&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;true&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>933346339</payload_hash>
+        <record_name>Move to warehouse</record_name>
+        <reverted_from/>
+        <source>dee012ed2f303010d589d7492799b624</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-18 12:58:56</sys_created_on>
+        <sys_id>8d15d48e2ff03010d589d7492799b674</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a1f33f5e00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-18 12:58:56</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>0915d48e3bf03010f29879216a5df674</update_guid>
+        <update_guid_history>0915d48e3bf03010f29879216a5df674:933346339,46949c4ee8f030103a9334fe7abbc543:983771316,8874104ec9f03010f1ffd3f14937e731:-1732696857,8a04984e17f03010839a4b367090034f:842100845,58d3dc0e0ff03010f652b3d5d09ddfb5:1564384229,6072d40e0af03010337eec0bc9f1438e:-1707578889,d49194ca77f03010d8f57f134f025ff7:1072688827,04a0d08aebf03010b5a3aac355cc3faf:1783401743,5ede0c0aaaf03010bb8c2cd7bacdd1a7:1072688827,6add840a03f030108c5e4d6057fb92de:-1023836198,adad840afdf0301043905370745bab6a:-1997935306,b78d840af7f03010d3adddbfeaed92d9:-1232371919,943d800ac0f03010b80163e91726f53e:-1218949802,1b1dccc6c8f03010c20e230020182923:-1901031687,60fc44c6fef03010753484abb5f86cc7:642819691,11cb0886fdf03010a840e2a22f001708:-1320460809,807bc086bef03010e3698a621aab3dfc:-274342754,c14bc08690f030102b9de1a8a2d53e63:572137487,602b4086bbf03010b63b13508578ca5d:-905881648,790b0086d4f030104f67029e9b3e2ee4:-1320460809,56da4c4644f030101a1f84ef0f6a5b05:-905881648,ba5a4c061bf0301016967add99d1e297:1099983862,e899c806dbf030108272bfbd99505a36:-2103116286,d109888a27b03010f13d44c2144d1ea1:2071839124,dbe7b77950b030100b5214c1b27313ad:1201512585,baa7333917b0301032f72345e301c1b7:1486554714,0767b37923b03010996b17624dd3ff82:-1009767919,22c437f554b03010be6f2515158a96f7:-361192606,6894bfb534b03010ed59d97cf3036fae:288552803,ed6433f588b0301025ae7542bc297d1d:-152870479,5ac373b5dfb0301064380d1a262dfad7:341051971,5423bf75c0b03010b95c728a8978d493:552216577,c5037375c0b03010eda27e8a0f088517:-2074925421,274d27313ab03010c0389d91d12dbb3f:1745378432,de1deffd17703010a504de7afae88152:-2028367296,beeceffd83703010ed5568ea8464a382:1283665505,c3bc2ffd48703010b403d88c2c70ee80:-1437717338</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marco.vella</sys_created_by>
+        <sys_created_on>2021-06-18 13:00:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>ca23ea52403047e186abd86f604145f9</sys_id>
+        <sys_metadata>165ce7fd2f703010d589d7492799b634</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Move to warehouse</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_parent display_value="Wares">2907d2e12f703010d589d7492799b65c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_scope_delete display_value="">789dfa9f3c8742489e2ea1edeaad2139</sys_scope_delete>
+        <sys_update_name>sys_ui_action_165ce7fd2f703010d589d7492799b634</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_165ce7fd2f703010d589d7492799b634">8d15d48e2ff03010d589d7492799b674</sys_update_version>
+        <sys_updated_by>marco.vella</sys_updated_by>
+        <sys_updated_on>2021-06-18 13:00:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

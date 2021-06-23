@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>move</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+	g_form.info('alert');
+	var item = new GlideRecord('x_655585_whmg_list_items');
+	var ware = new
+	item.initialize();
+	item.id = 'pippo';
+	
+	item.insert();
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>false</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>true</list_action>
+        <list_banner_button>true</list_banner_button>
+        <list_button>true</list_button>
+        <list_choice>true</list_choice>
+        <list_context_menu>true</list_context_menu>
+        <list_link>true</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Move to Warehouse</name>
+        <onclick>onClick()</onclick>
+        <order>100</order>
+        <script><![CDATA[function onClick(){
+	alert('Button clicked')
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-17 14:02:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dc39d7652f343010d589d7492799b623</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Move to Warehouse</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sys_ui_action_dc39d7652f343010d589d7492799b623</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-18 09:53:06</sys_updated_on>
+        <table>x_655585_whmg_wares</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</application>
+        <file_path/>
+        <instance_id>7b2064f9dbbb13404f035d00cf96199d</instance_id>
+        <instance_name>dev69466</instance_name>
+        <name>sys_ui_action_dc39d7652f343010d589d7492799b623</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;move&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+	g_form.info('alert');
+	var item = new GlideRecord('x_655585_whmg_list_items');
+	var ware = new
+	item.initialize();
+	item.id = 'pippo';
+	
+	item.insert();
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;false&lt;/form_action&gt;&lt;form_button&gt;false&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style&gt;primary&lt;/form_style&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;true&lt;/list_action&gt;&lt;list_banner_button&gt;true&lt;/list_banner_button&gt;&lt;list_button&gt;true&lt;/list_button&gt;&lt;list_choice&gt;true&lt;/list_choice&gt;&lt;list_context_menu&gt;true&lt;/list_context_menu&gt;&lt;list_link&gt;true&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Move to Warehouse&lt;/name&gt;&lt;onclick&gt;onClick()&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function onClick(){
+	alert('Button clicked')
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-17 14:02:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;dc39d7652f343010d589d7492799b623&lt;/sys_id&gt;&lt;sys_mod_count&gt;19&lt;/sys_mod_count&gt;&lt;sys_name&gt;Move to Warehouse&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Warehouse Management" source="x_655585_whmg"&gt;56e012ed2f303010d589d7492799b623&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Warehouse Management"&gt;56e012ed2f303010d589d7492799b623&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_dc39d7652f343010d589d7492799b623&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-18 09:53:06&lt;/sys_updated_on&gt;&lt;table&gt;x_655585_whmg_wares&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;true&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>965165101</payload_hash>
+        <record_name>Move to Warehouse</record_name>
+        <reverted_from/>
+        <source>dee012ed2f303010d589d7492799b624</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-18 09:53:06</sys_created_on>
+        <sys_id>7a8aa3bd2f703010d589d7492799b652</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a1e89d1d20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-18 09:53:06</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>f28aa3bd827030108ea5480ee6d10b52</update_guid>
+        <update_guid_history>f28aa3bd827030108ea5480ee6d10b52:965165101,827aa77d437030101c2cb518dbc2339d:-755470525,bd29e37d3770301075fdf6d216880589:1582032020,3d282b3dad7030101c0e3a0093cb8e80:-1907673604,3b07abf9dc703010ee8b4817e39e0f0d:-127984680,a3c66bf957703010667e789712a00f71:1889351388,87b6e7f90970301050be2942501ebecb:-127984680,289627f9bb7030104f80ec83797c4c1a:1288047420,c316e7b901703010cbfac075e44f4b5b:506862637,88d523b96a7030109979df8a1a24d574:-1259830105,e4d423b91e7030100a43d705c78e636b:1852477341,db74a779bf703010b7e3fe0168f61f84:1887413706,c9212775a1703010a8bcb8c67ad3f209:39804810,6d4f13758770301074895032a48b0e00:-644105576,801f9f35ab703010e2b6a3bfdb12dafd:-1917669001,a3ee1b35b07030107dacb5df52703bb2:1031939763,059e5335d9703010719a02a99b0e5137:200051428,8b5edff10a703010f3400343d23a7d48:-2075474547,0c2e9ff10e7030106513710c2f172f31:-1734241537,80f95b65c7343010dc5d8e20a24fd4c5:-2436239</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-18 10:01:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>00557b95ff8d45988017b25aa1c11e40</sys_id>
+        <sys_metadata>dc39d7652f343010d589d7492799b623</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Move to Warehouse</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_parent display_value="Wares">2907d2e12f703010d589d7492799b65c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_scope_delete display_value="">789dfa9f3c8742489e2ea1edeaad2139</sys_scope_delete>
+        <sys_update_name>sys_ui_action_dc39d7652f343010d589d7492799b623</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_dc39d7652f343010d589d7492799b623">7a8aa3bd2f703010d589d7492799b652</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-18 10:01:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

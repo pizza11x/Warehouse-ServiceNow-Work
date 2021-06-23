@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_655585_whmg_order">x_655585_whmg_order</category>
+        <maximum_digits>5</maximum_digits>
+        <number>1</number>
+        <prefix>ORD</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>marco.vella</sys_created_by>
+        <sys_created_on>2021-06-17 09:28:59</sys_created_on>
+        <sys_id>eb6bd2e52f703010d589d7492799b6fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ORD</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sys_number_eb6bd2e52f703010d589d7492799b6fd</sys_update_name>
+        <sys_updated_by>marco.vella</sys_updated_by>
+        <sys_updated_on>2021-06-17 09:28:59</sys_updated_on>
+    </sys_number>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="closing_date" label="Closing Date" language="en" table="x_655585_whmg_order">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>closing_date</element>
+            <help/>
+            <hint/>
+            <label>Closing Date</label>
+            <language>en</language>
+            <name>x_655585_whmg_order</name>
+            <plural>Closing Dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>marco.vella</sys_created_by>
+            <sys_created_on>2021-06-17 09:28:59</sys_created_on>
+            <sys_id>276b16e52f703010d589d7492799b607</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Closing Date</sys_name>
+            <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+            <sys_update_name>sys_documentation_x_655585_whmg_order_closing_date_en</sys_update_name>
+            <sys_updated_by>marco.vella</sys_updated_by>
+            <sys_updated_on>2021-06-17 09:28:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

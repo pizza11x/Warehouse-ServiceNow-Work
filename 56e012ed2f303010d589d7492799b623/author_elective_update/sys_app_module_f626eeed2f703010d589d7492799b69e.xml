@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Grouped Items">3e26eeed2f703010d589d7492799b69b</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Grouped Items</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_655585_whmg_grouped_items</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_655585_whmg.grouped_items_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-17 10:15:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f626eeed2f703010d589d7492799b69e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Grouped Items</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sys_app_module_f626eeed2f703010d589d7492799b69e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-17 10:15:53</sys_updated_on>
+        <timeline_page/>
+        <title>Grouped Items</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</application>
+        <file_path/>
+        <instance_id>7b2064f9dbbb13404f035d00cf96199d</instance_id>
+        <instance_name>dev69466</instance_name>
+        <name>sys_app_module_f626eeed2f703010d589d7492799b69e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Grouped Items">3e26eeed2f703010d589d7492799b69b</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Grouped Items</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_655585_whmg_grouped_items</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_655585_whmg.grouped_items_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-17 10:15:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f626eeed2f703010d589d7492799b69e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Grouped Items</sys_name><sys_overrides/><sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package><sys_policy/><sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope><sys_update_name>sys_app_module_f626eeed2f703010d589d7492799b69e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-17 10:15:53</sys_updated_on><timeline_page/><title>Grouped Items</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-813262294</payload_hash>
+        <record_name>Grouped Items</record_name>
+        <reverted_from/>
+        <source>dee012ed2f303010d589d7492799b624</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-17 10:15:53</sys_created_on>
+        <sys_id>fa26eeed2f703010d589d7492799b6a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a197852cb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-17 10:15:53</sys_updated_on>
+        <type>Module</type>
+        <update_guid>3626eeed857030103d9bc5b86a0103a0</update_guid>
+        <update_guid_history>3626eeed857030103d9bc5b86a0103a0:-813262294</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Grouped Items">d1d383652ff03010d589d7492799b60a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marco.vella</sys_created_by>
+        <sys_created_on>2021-06-17 12:25:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>2f7ecf4ad07346e8aea684eb69001401</sys_id>
+        <sys_metadata>f626eeed2f703010d589d7492799b69e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Grouped Items</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_scope_delete display_value="">789dfa9f3c8742489e2ea1edeaad2139</sys_scope_delete>
+        <sys_update_name>sys_app_module_f626eeed2f703010d589d7492799b69e</sys_update_name>
+        <sys_update_version display_value="sys_app_module_f626eeed2f703010d589d7492799b69e">fa26eeed2f703010d589d7492799b6a0</sys_update_version>
+        <sys_updated_by>marco.vella</sys_updated_by>
+        <sys_updated_on>2021-06-17 12:25:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

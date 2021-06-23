@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_655585_whmg.CalculateCapacity</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>CalculateCapacity</name>
+        <script><![CDATA[var CalculateCapacity = Class.create();
+CalculateCapacity.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	lastingSpace: function() {
+		var warehouse = new GlideRecord('x_655585_whmg_warehouse');
+		var wh = this.getParameter("sysparm_whId");
+		warehouse.addQuery('number', wh);
+		warehouse.query();
+		warehouse.next();
+		var last=warehouse.capacity-warehouse.quantity;
+		return last;
+	}
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>marco.vella</sys_created_by>
+        <sys_created_on>2021-06-22 08:28:28</sys_created_on>
+        <sys_id>526c338f2f303010d589d7492799b698</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>CalculateCapacity</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sys_script_include_526c338f2f303010d589d7492799b698</sys_update_name>
+        <sys_updated_by>marco.vella</sys_updated_by>
+        <sys_updated_on>2021-06-22 10:49:23</sys_updated_on>
+    </sys_script_include>
+</record_update>

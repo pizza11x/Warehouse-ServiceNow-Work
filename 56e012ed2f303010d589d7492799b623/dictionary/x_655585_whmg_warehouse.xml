@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Warehouse" max_length="40" name="x_655585_whmg_warehouse" sizeclass="3" type="collection">
+        <element label="Capacity" mandatory="true" max_length="40" name="capacity" type="integer"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="encode_utf8=false" label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="u_whm_name" type="string"/>
+        <element label="Workers Number" max_length="40" name="workers_number" type="integer"/>
+        <index name="index">
+            <element name="manager"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+    </element>
+</database>

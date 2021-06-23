@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_655585_whmg_grouped_items" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="DELETE">
+            <average_value>false</average_value>
+            <element>items</element>
+            <list_id display_value="x_655585_whmg_grouped_items" element="NULL" name="x_655585_whmg_grouped_items" parent="NULL" relationship="NULL" sys_domain="global" view="5af172418d232010d152b9319a2024b8">faea26e12fb03010d589d7492799b6c8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>marco.vella</sys_created_by>
+            <sys_created_on>2021-06-17 10:36:39</sys_created_on>
+            <sys_id>b6ea26e12fb03010d589d7492799b6c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marco.vella</sys_updated_by>
+            <sys_updated_on>2021-06-17 10:36:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="DELETE">
+            <average_value>false</average_value>
+            <element>quantity</element>
+            <list_id display_value="x_655585_whmg_grouped_items" element="NULL" name="x_655585_whmg_grouped_items" parent="NULL" relationship="NULL" sys_domain="global" view="5af172418d232010d152b9319a2024b8">faea26e12fb03010d589d7492799b6c8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>marco.vella</sys_created_by>
+            <sys_created_on>2021-06-17 10:36:39</sys_created_on>
+            <sys_id>3aea26e12fb03010d589d7492799b6c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>marco.vella</sys_updated_by>
+            <sys_updated_on>2021-06-17 10:36:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="DELETE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_655585_whmg_grouped_items</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path/>
+            <sys_id>d758a2a12fb03010d589d7492799b612</sys_id>
+            <sys_mod_count/>
+            <sys_name>x_655585_whmg_grouped_items</sys_name>
+            <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2021-06-17 12:25:32</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">5af172418d232010d152b9319a2024b8</view>
+            <view_name>sys_ref_list</view_name>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</application>
+        <file_path/>
+        <instance_id>7b2064f9dbbb13404f035d00cf96199d</instance_id>
+        <instance_name>dev69466</instance_name>
+        <name>sys_ui_list_x_655585_whmg_grouped_items_sys_ref_list</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_655585_whmg_grouped_items" version="2" view="sys_ref_list"><sys_ui_list_element action="DELETE"><average_value>false</average_value><element>items</element><list_id display_value="x_655585_whmg_grouped_items" element="NULL" name="x_655585_whmg_grouped_items" parent="NULL" relationship="NULL" sys_domain="global" view="5af172418d232010d152b9319a2024b8">faea26e12fb03010d589d7492799b6c8</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>marco.vella</sys_created_by><sys_created_on>2021-06-17 10:36:39</sys_created_on><sys_id>b6ea26e12fb03010d589d7492799b6c9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>marco.vella</sys_updated_by><sys_updated_on>2021-06-17 10:36:39</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="DELETE"><average_value>false</average_value><element>quantity</element><list_id display_value="x_655585_whmg_grouped_items" element="NULL" name="x_655585_whmg_grouped_items" parent="NULL" relationship="NULL" sys_domain="global" view="5af172418d232010d152b9319a2024b8">faea26e12fb03010d589d7492799b6c8</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>marco.vella</sys_created_by><sys_created_on>2021-06-17 10:36:39</sys_created_on><sys_id>3aea26e12fb03010d589d7492799b6c9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>marco.vella</sys_updated_by><sys_updated_on>2021-06-17 10:36:39</sys_updated_on></sys_ui_list_element><sys_ui_list action="DELETE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_655585_whmg_grouped_items</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path/><sys_id>d758a2a12fb03010d589d7492799b612</sys_id><sys_mod_count/><sys_name>x_655585_whmg_grouped_items</sys_name><sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package><sys_policy/><sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on>2021-06-17 12:25:32</sys_updated_on><sys_user/><view display_value="Reference List" name="sys_ref_list">5af172418d232010d152b9319a2024b8</view><view_name>sys_ref_list</view_name></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-490942227</payload_hash>
+        <record_name>x_655585_whmg_grouped_items</record_name>
+        <reverted_from/>
+        <source>dee012ed2f303010d589d7492799b624</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marco.vella</sys_created_by>
+        <sys_created_on>2021-06-17 12:25:32</sys_created_on>
+        <sys_id>b9d383652ff03010d589d7492799b68b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a19ef02950000001</sys_recorded_at>
+        <sys_updated_by>marco.vella</sys_updated_by>
+        <sys_updated_on>2021-06-17 12:25:32</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>35d383651cf030101b6ec27b37687b8b</update_guid>
+        <update_guid_history>35d383651cf030101b6ec27b37687b8b:-490942227,b1d38365def0301064b0d51c6dc0a187:1920859501,75d383658df0301009dc13782239f67f:1119712653,25d38365c2f030107f4f6237a69db87b:-1154046067</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marco.vella</sys_created_by>
+        <sys_created_on>2021-06-17 12:25:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>98ca1ac7dfa84c3e90807ac2bca2c9e1</sys_id>
+        <sys_metadata>faea26e12fb03010d589d7492799b6c8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_655585_whmg_grouped_items</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_parent display_value="">97852aed2f703010d589d7492799b6e9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_scope_delete display_value="">789dfa9f3c8742489e2ea1edeaad2139</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_655585_whmg_grouped_items_sys_ref_list</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_655585_whmg_grouped_items_sys_ref_list">b9d383652ff03010d589d7492799b68b</sys_update_version>
+        <sys_updated_by>marco.vella</sys_updated_by>
+        <sys_updated_on>2021-06-17 12:25:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

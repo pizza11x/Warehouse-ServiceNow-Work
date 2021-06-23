@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>closing_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Switch to closed</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	var date = g_form.getValue('sys_updated_on');
+	
+	if(g_form.getValue('status') == 'closed'){
+		g_form.setValue('closing_date', date);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-17 13:02:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d00c07e92ff03010d589d7492799b6f2</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Switch to closed</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sys_script_client_d00c07e92ff03010d589d7492799b6f2</sys_update_name>
+        <sys_updated_by>marco.vella</sys_updated_by>
+        <sys_updated_on>2021-06-17 13:49:14</sys_updated_on>
+        <table>x_655585_whmg_order</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</application>
+        <file_path/>
+        <instance_id>7b2064f9dbbb13404f035d00cf96199d</instance_id>
+        <instance_name>dev69466</instance_name>
+        <name>sys_script_client_d00c07e92ff03010d589d7492799b6f2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;closing_date&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Switch to closed&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+	var date = g_form.getValue('sys_updated_on');
+	
+	if(g_form.getValue('status') == 'closed'){
+		g_form.setValue('closing_date', date);
+	}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-17 13:02:51&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d00c07e92ff03010d589d7492799b6f2&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Switch to closed&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Warehouse Management" source="x_655585_whmg"&gt;56e012ed2f303010d589d7492799b623&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Warehouse Management"&gt;56e012ed2f303010d589d7492799b623&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_d00c07e92ff03010d589d7492799b6f2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;marco.vella&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-17 13:49:14&lt;/sys_updated_on&gt;&lt;table&gt;x_655585_whmg_order&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1660266229</payload_hash>
+        <record_name>Switch to closed</record_name>
+        <reverted_from/>
+        <source>dee012ed2f303010d589d7492799b624</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marco.vella</sys_created_by>
+        <sys_created_on>2021-06-17 13:49:14</sys_created_on>
+        <sys_id>cc07dfa12f343010d589d7492799b68c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a1a3ba75f0000001</sys_recorded_at>
+        <sys_updated_by>marco.vella</sys_updated_by>
+        <sys_updated_on>2021-06-17 13:49:14</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>0807dfa17c3430102b745c3b8c9b8b8c</update_guid>
+        <update_guid_history>0807dfa17c3430102b745c3b8c9b8b8c:1660266229,26f2d3211c343010e5564156a278d399:562820920,a8d21f21b434301026a13fbfde291d03:1005750179,4ce1d3edcdf030107588d0beb1648ec2:1067743234,a46f43ad51f03010866980b9922cb9ee:270783048,e3be4b6de6f0301024b992382a251b55:-1237475928,259d872d64f0301036a5f3c5625da3f9:270783048,cfcccbe939f03010fa85dff8f6d8cbf3:-2034992862,6c6c4fa96ff03010085cb90a06c64e4f:1221714634</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marco.vella</sys_created_by>
+        <sys_created_on>2021-06-22 07:46:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>76e70f4135c446089e19d2a8f10bef71</sys_id>
+        <sys_metadata>d00c07e92ff03010d589d7492799b6f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Switch to closed</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_parent display_value="Orders">636bd2e52f703010d589d7492799b65f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_scope_delete display_value="">789dfa9f3c8742489e2ea1edeaad2139</sys_scope_delete>
+        <sys_update_name>sys_script_client_d00c07e92ff03010d589d7492799b6f2</sys_update_name>
+        <sys_update_version display_value="sys_script_client_d00c07e92ff03010d589d7492799b6f2">cc07dfa12f343010d589d7492799b68c</sys_update_version>
+        <sys_updated_by>marco.vella</sys_updated_by>
+        <sys_updated_on>2021-06-22 07:46:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

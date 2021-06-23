@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA System Administratio - New Tab">9234e44a2f343010d589d7492799b6f9</legacy_page>
+        <name>PA System Administratio - New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>marco.vella</sys_created_by>
+        <sys_created_on>2021-06-18 14:05:07</sys_created_on>
+        <sys_id>9634a08a2f343010d589d7492799b62e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA System Administratio - New Tab</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sys_grid_canvas_9634a08a2f343010d589d7492799b62e</sys_update_name>
+        <sys_updated_by>marco.vella</sys_updated_by>
+        <sys_updated_on>2021-06-18 14:05:07</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

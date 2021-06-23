@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_655585_whmg_list_items</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Move back to wares</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script/>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>marco.vella</sys_created_by>
+        <sys_created_on>2021-06-22 13:18:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2c5b789f2ff03010d589d7492799b655</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Move back to wares</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sys_script_2c5b789f2ff03010d589d7492799b655</sys_update_name>
+        <sys_updated_by>marco.vella</sys_updated_by>
+        <sys_updated_on>2021-06-22 13:29:41</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=2c5b789f2ff03010d589d7492799b655"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</application>
+        <file_path/>
+        <instance_id>7b2064f9dbbb13404f035d00cf96199d</instance_id>
+        <instance_name>dev69466</instance_name>
+        <name>sys_script_2c5b789f2ff03010d589d7492799b655</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script"><sys_script action="INSERT_OR_UPDATE"><abort_action>false</abort_action><access>package_private</access><action_delete>false</action_delete><action_insert>false</action_insert><action_query>false</action_query><action_update>true</action_update><active>true</active><add_message>false</add_message><advanced>true</advanced><change_fields>false</change_fields><client_callable>false</client_callable><collection>x_655585_whmg_list_items</collection><condition/><description/><execute_function>false</execute_function><filter_condition/><is_rest>false</is_rest><message/><name>Move back to wares</name><order>100</order><priority>100</priority><rest_method/><rest_method_text/><rest_service/><rest_service_text/><rest_variables/><role_conditions/><script/><sys_class_name>sys_script</sys_class_name><sys_created_by>marco.vella</sys_created_by><sys_created_on>2021-06-22 13:18:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2c5b789f2ff03010d589d7492799b655</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Move back to wares</sys_name><sys_overrides/><sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package><sys_policy/><sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope><sys_update_name>sys_script_2c5b789f2ff03010d589d7492799b655</sys_update_name><sys_updated_by>marco.vella</sys_updated_by><sys_updated_on>2021-06-22 13:29:41</sys_updated_on><template/><when>after</when></sys_script><sys_translated_text action="delete_multiple" query="documentkey=2c5b789f2ff03010d589d7492799b655"/></record_update>]]></payload>
+        <payload_hash>322231862</payload_hash>
+        <record_name>Move back to wares</record_name>
+        <reverted_from/>
+        <source>dee012ed2f303010d589d7492799b624</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marco.vella</sys_created_by>
+        <sys_created_on>2021-06-22 13:29:42</sys_created_on>
+        <sys_id>a6724dd32f343010d589d7492799b664</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a33e98dd40000001</sys_recorded_at>
+        <sys_updated_by>marco.vella</sys_updated_by>
+        <sys_updated_on>2021-06-22 13:29:42</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>ae724dd3ad343010e5a8426c3323b263</update_guid>
+        <update_guid_history>ae724dd3ad343010e5a8426c3323b263:322231862,2aff7c53c2343010dd57ea5ec2afce3a:-945895687</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marco.vella</sys_created_by>
+        <sys_created_on>2021-06-22 13:52:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>dbf1ff47a0d24767a3b61ecba7368d09</sys_id>
+        <sys_metadata>2c5b789f2ff03010d589d7492799b655</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Move back to wares</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_parent display_value="List items">2acaa88e2f343010d589d7492799b608</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_scope_delete display_value="">789dfa9f3c8742489e2ea1edeaad2139</sys_scope_delete>
+        <sys_update_name>sys_script_2c5b789f2ff03010d589d7492799b655</sys_update_name>
+        <sys_update_version display_value="sys_script_2c5b789f2ff03010d589d7492799b655">a6724dd32f343010d589d7492799b664</sys_update_version>
+        <sys_updated_by>marco.vella</sys_updated_by>
+        <sys_updated_on>2021-06-22 13:52:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

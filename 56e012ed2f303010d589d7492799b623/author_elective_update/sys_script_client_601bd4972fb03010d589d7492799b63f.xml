@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>capacity</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name/>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	var x = g_form.getReference('location');
+	g_form.showFieldMsg('location', x);			
+
+	var ga = new GlideAjax('FilterContryItaly');
+	ga.addParam('sysparm_name', 'myFunction');
+	ga.getXML(getResponse);
+	
+	function getResponse(response){
+		var answer = response.responseXML.documentElement.getAttribute('answer');
+		
+		g_form.setValue('location', answer);
+	}
+	
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-22 10:38:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>601bd4972fb03010d589d7492799b63f</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sys_script_client_601bd4972fb03010d589d7492799b63f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-22 12:58:19</sys_updated_on>
+        <table>x_655585_whmg_warehouse</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</application>
+        <file_path/>
+        <instance_id>7b2064f9dbbb13404f035d00cf96199d</instance_id>
+        <instance_name>dev69466</instance_name>
+        <name>sys_script_client_601bd4972fb03010d589d7492799b63f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;capacity&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name/&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+	var x = g_form.getReference('location');
+	g_form.showFieldMsg('location', x);			
+
+	var ga = new GlideAjax('FilterContryItaly');
+	ga.addParam('sysparm_name', 'myFunction');
+	ga.getXML(getResponse);
+	
+	function getResponse(response){
+		var answer = response.responseXML.documentElement.getAttribute('answer');
+		
+		g_form.setValue('location', answer);
+	}
+	
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-22 10:38:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;601bd4972fb03010d589d7492799b63f&lt;/sys_id&gt;&lt;sys_mod_count&gt;24&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Warehouse Management" source="x_655585_whmg"&gt;56e012ed2f303010d589d7492799b623&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Warehouse Management"&gt;56e012ed2f303010d589d7492799b623&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_601bd4972fb03010d589d7492799b63f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-22 12:58:19&lt;/sys_updated_on&gt;&lt;table&gt;x_655585_whmg_warehouse&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1522169589</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>dee012ed2f303010d589d7492799b624</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-22 12:58:19</sys_created_on>
+        <sys_id>3e4b749f2ff03010d589d7492799b6bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a33ccd48f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-22 12:58:19</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>b64b749fdff030103a8b155994f5a7bf</update_guid>
+        <update_guid_history>b64b749fdff030103a8b155994f5a7bf:1522169589,eb0af45fa6f030103c5cf87942c5467e:1286711842,9be9bcdbf6f0301078f6414f4abd47ff:139769381,44d9b05fe9f030105803fd5c0bfbe38a:-1775534959,3a697c1f61f03010ace42d80ea94a73c:2078670386,1359b81f2df030102a0484510015984e:-1601786104,f947f89b71f03010483f6873629d8835:-569466615,df3734db45f03010ea6e7bf869ed2251:1796521253,49863c9b22f030107a4801dc2362db89:-1069455573,9516f49b6ef03010f35ec25586494f64:1211068007,08f5f09ba5f03010b33ac700e8eaaa22:1317466819,61b5b09b57f03010b72896115e8a5c19:510558977,b1a5709b67f030108cccf36d80bbb520:110473750,b7b4705b2ef03010c020a575b222dc79:727522811,ce3e6cd3c0f03010ba865603a37b57e5:-745373786,e9fd2cd3a7f03010cca19f0c39b71924:1311898666,48dda8d348f03010d132fe3e93c97de7:-1036216541,9dbcac93b0f030107858d728877fcfc0:347964345,d2aca0db87b0301001879b613f9f0212:2106613402,d400689ba0b03010abdba645d07046c4:42683960,ae8f9c5bc8b0301059d7beee597eb102:-1531311540,79fb9cd757b03010872346f743efdadb:-1067895037,a8ab18d722b03010abef809c688bd176:1661631202,9f7bd0d738b030104db97518e6bd1468:-1067895037,c34bd0d7d8b03010c7a7dc3796c95c3c:-1531311540</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-22 13:38:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>dbcc5146fdb0438fb57f9ceed67ea481</sys_id>
+        <sys_metadata>601bd4972fb03010d589d7492799b63f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_parent display_value="Warehouse">cd4292212f703010d589d7492799b64e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_scope_delete display_value="">789dfa9f3c8742489e2ea1edeaad2139</sys_scope_delete>
+        <sys_update_name>sys_script_client_601bd4972fb03010d589d7492799b63f</sys_update_name>
+        <sys_update_version display_value="sys_script_client_601bd4972fb03010d589d7492799b63f">3e4b749f2ff03010d589d7492799b6bf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-22 13:38:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

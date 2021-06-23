@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_ordered_item_link">
+    <sc_ordered_item_link action="INSERT_OR_UPDATE">
+        <link_text/>
+        <link_url/>
+        <name>Items</name>
+        <sys_class_name>sc_ordered_item_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-17 12:11:10</sys_created_on>
+        <sys_id>067047612ff03010d589d7492799b6da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Items</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sc_ordered_item_link_067047612ff03010d589d7492799b6da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-17 12:11:10</sys_updated_on>
+        <target>_blank</target>
+    </sc_ordered_item_link>
+</record_update>

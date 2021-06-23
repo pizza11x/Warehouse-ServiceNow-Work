@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>List items</name>
+        <order>100</order>
+        <roles>x_655585_whmg.list_items_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-18 08:10:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9713d3f92f303010d589d7492799b630</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List items</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sys_app_application_9713d3f92f303010d589d7492799b630</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-18 08:10:44</sys_updated_on>
+        <title>List items</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</application>
+        <file_path/>
+        <instance_id>7b2064f9dbbb13404f035d00cf96199d</instance_id>
+        <instance_name>dev69466</instance_name>
+        <name>sys_app_application_9713d3f92f303010d589d7492799b630</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>List items</name><order>100</order><roles>x_655585_whmg.list_items_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-18 08:10:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9713d3f92f303010d589d7492799b630</sys_id><sys_mod_count>0</sys_mod_count><sys_name>List items</sys_name><sys_overrides/><sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package><sys_policy/><sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope><sys_update_name>sys_app_application_9713d3f92f303010d589d7492799b630</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-18 08:10:44</sys_updated_on><title>List items</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1894764854</payload_hash>
+        <record_name>List items</record_name>
+        <reverted_from/>
+        <source>dee012ed2f303010d589d7492799b624</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-18 08:10:44</sys_created_on>
+        <sys_id>1b13d3f92f303010d589d7492799b633</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a1e2c19e30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-18 08:10:44</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>5313d3f99e303010c752613bcc67c233</update_guid>
+        <update_guid_history>5313d3f99e303010c752613bcc67c233:-1894764854</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="List items">aa97ec0e2f343010d589d7492799b687</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-18 14:19:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>69220cea0eb94646b67c86bcab9ca7e9</sys_id>
+        <sys_metadata>9713d3f92f303010d589d7492799b630</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List items</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_scope_delete display_value="">789dfa9f3c8742489e2ea1edeaad2139</sys_scope_delete>
+        <sys_update_name>sys_app_application_9713d3f92f303010d589d7492799b630</sys_update_name>
+        <sys_update_version display_value="sys_app_application_9713d3f92f303010d589d7492799b630">1b13d3f92f303010d589d7492799b633</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-18 14:19:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
