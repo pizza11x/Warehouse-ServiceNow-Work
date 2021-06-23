@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_655585_whmg.MoveToWhScript</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>MoveToWhScript</name>
+        <script><![CDATA[var MoveToWhScript = Class.create();
+MoveToWhScript.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	wareUpdate: function() {
+		var wares = new GlideRecord('x_655585_whmg_wares');
+		var id = this.getParameter("sysparm_id");
+		qntToMove = this.getParameter('sysparm_qToMove');
+		parseInt(qntToMove);
+		var catItem = new GlideRecord('sc_cat_item');
+		
+		wares.addQuery('sys_id', id);
+		wares.query();
+		wares.next();
+		catItem.addQuery('sys_id', wares.item);
+		catItem.query();
+		catItem.next();
+		var item = new GlideRecord('x_655585_whmg_list_items');
+		var warehouse = new GlideRecord('x_655585_whmg_warehouse');
+		var currentItem = wares.item;
+		var displayWarehouse = this.getParameter("sysparm_wh");
+		var valueItem = 0;
+		warehouse.addQuery('number', displayWarehouse);
+		warehouse.query();
+		warehouse.next();
+		var currentWarehouse = warehouse.sys_id;
+		item.addQuery('item', currentItem);
+		item.addQuery('warehouse', currentWarehouse);
+		
+		item.query();
+		
+		var currentQuantity = warehouse.capacity-warehouse.quantity;
+		if(currentQuantity >= parseInt(qntToMove))
+		{
+			if(item.next()){
+				valueItem=item.quantity+parseInt(qntToMove);
+				wares.quantity -= parseInt(qntToMove);
+				if(wares.quantity == 0)
+				{
+					wares.deleteRecord();
+				}else{
+					wares.update();
+				}
+				item.quantity = valueItem;
+				item.update();
+				warehouse.quantity += parseInt(qntToMove);
+				warehouse.update();
+				return true;
+			}else if(!item.next()){
+				if(qntToMove <= wares.quantity){
+					item.newRecord();
+					item.id = displayWarehouse + '_' + catItem.name;
+					item.item = wares.getValue('item');
+					item.quantity = parseInt(qntToMove);
+					item.warehouse = currentWarehouse;
+					wares.quantity -= parseInt(qntToMove);
+					if(wares.quantity == 0)
+					{
+						wares.deleteRecord();
+					}else{
+						wares.update();
+					}
+					item.insert();
+					warehouse.quantity += parseInt(qntToMove);
+					warehouse.update();
+					return true;
+				}else{
+					gs.addErrorMessage("Quantity to move not allowed");
+					return false;
+				}
+			}
+		}else{
+			gs.addErrorMessage("Warehouse is full");
+			return false;
+		}
+	
+	}
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>marco.vella</sys_created_by>
+        <sys_created_on>2021-06-23 12:38:01</sys_created_on>
+        <sys_id>b65e712f2ff03010d589d7492799b648</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>MoveToWhScript</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sys_script_include_b65e712f2ff03010d589d7492799b648</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 15:27:49</sys_updated_on>
+    </sys_script_include>
+</record_update>

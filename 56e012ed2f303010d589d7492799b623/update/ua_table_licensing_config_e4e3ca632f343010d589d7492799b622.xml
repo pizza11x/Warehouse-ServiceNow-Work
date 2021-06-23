@@ -10,16 +10,16 @@
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-18 14:34:34</sys_created_on>
-        <sys_id>71fae4ce2f343010d589d7492799b6fe</sys_id>
+        <sys_created_by>marco.vella</sys_created_by>
+        <sys_created_on>2021-06-23 12:53:57</sys_created_on>
+        <sys_id>e4e3ca632f343010d589d7492799b622</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_655585_whmg_list_items</sys_name>
         <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
         <sys_policy/>
         <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
-        <sys_update_name>ua_table_licensing_config_71fae4ce2f343010d589d7492799b6fe</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-18 14:34:34</sys_updated_on>
+        <sys_update_name>ua_table_licensing_config_e4e3ca632f343010d589d7492799b622</sys_update_name>
+        <sys_updated_by>marco.vella</sys_updated_by>
+        <sys_updated_on>2021-06-23 12:53:57</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

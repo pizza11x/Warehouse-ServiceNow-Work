@@ -13,7 +13,7 @@
         <link_roles/>
         <list_edit_insert_row>false</list_edit_insert_row>
         <list_edit_ref_qual_tag/>
-        <list_edit_type/>
+        <list_edit_type>disabled</list_edit_type>
         <name>x_655585_whmg_list_items</name>
         <new_condition/>
         <new_roles/>
@@ -30,18 +30,18 @@
         <related_list/>
         <sys_class_name>sys_ui_list_control</sys_class_name>
         <sys_created_by>marco.vella</sys_created_by>
-        <sys_created_on>2021-06-21 15:04:52</sys_created_on>
+        <sys_created_on>2021-06-23 13:05:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>e99ec0832f743010d589d7492799b694</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_id>3f6606272f343010d589d7492799b66e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>x_655585_whmg_list_items</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
         <sys_policy/>
         <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
-        <sys_update_name>sys_ui_list_control_e99ec0832f743010d589d7492799b694</sys_update_name>
+        <sys_update_name>sys_ui_list_control_3f6606272f343010d589d7492799b66e</sys_update_name>
         <sys_updated_by>marco.vella</sys_updated_by>
-        <sys_updated_on>2021-06-21 15:05:35</sys_updated_on>
+        <sys_updated_on>2021-06-23 13:05:29</sys_updated_on>
     </sys_ui_list_control>
 </record_update>

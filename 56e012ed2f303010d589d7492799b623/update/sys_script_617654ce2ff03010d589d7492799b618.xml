@@ -36,6 +36,8 @@
 	var currentWarehouse = current.getValue('u_reference_1');
 	var displayWarehouse = current.getDisplayValue('u_reference_1');
 	var valueItem = 0;
+	var qntToMove = 0;
+	qntToMove = current.u_integer_2;
 	warehouse.addQuery('number', displayWarehouse);
 	item.addQuery('item', currentItem);
 	item.addQuery('warehouse', currentWarehouse);
@@ -43,11 +45,11 @@
 	item.query();
 	warehouse.next();
 	var currentQuantity = warehouse.capacity-warehouse.quantity;
-	if(currentQuantity >= current.u_integer_2)
+	if(currentQuantity >= qntToMove)
 	{
 		if(item.next()){
-			valueItem=item.quantity+current.u_integer_2;
-			current.quantity -= current.u_integer_2;
+			valueItem=item.quantity+qntToMove;
+			current.quantity -= qntToMove;
 			if(current.quantity == 0)
 			{
 				current.deleteRecord();
@@ -56,16 +58,16 @@
 			}
 			item.quantity =valueItem;
 			item.update();
-			warehouse.quantity += current.u_integer_2;
+			warehouse.quantity += qntToMove;
 			warehouse.update();
 		}else if(!item.next()){
-			if(current.u_integer_2 <= current.quantity){
+			if(qntToMove <= current.quantity){
 				item.newRecord();
 				item.id = current.getDisplayValue('u_reference_1') + '_' + current.getDisplayValue('item');
 				item.item = current.getValue('item');
-				item.quantity = current.getValue('u_integer_2');
+				item.quantity = qntToMove;
 				item.warehouse = current.getValue('u_reference_1');
-				current.quantity -= current.u_integer_2;
+				current.quantity -=  qntToMove;
 				if(current.quantity == 0)
 				{
 					current.deleteRecord();
@@ -73,7 +75,7 @@
 					current.update();
 				}
 				item.insert();
-				warehouse.quantity += current.u_integer_2;
+				warehouse.quantity += qntToMove;
 				warehouse.update();
 			}else{
 				gs.addErrorMessage("Quantity to move not allowed");
@@ -91,15 +93,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>617654ce2ff03010d589d7492799b618</sys_id>
-        <sys_mod_count>170</sys_mod_count>
+        <sys_mod_count>173</sys_mod_count>
         <sys_name>Move to Warehouse</sys_name>
         <sys_overrides/>
         <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
         <sys_policy/>
         <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
         <sys_update_name>sys_script_617654ce2ff03010d589d7492799b618</sys_update_name>
-        <sys_updated_by>marco.vella</sys_updated_by>
-        <sys_updated_on>2021-06-22 13:30:36</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 15:15:18</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

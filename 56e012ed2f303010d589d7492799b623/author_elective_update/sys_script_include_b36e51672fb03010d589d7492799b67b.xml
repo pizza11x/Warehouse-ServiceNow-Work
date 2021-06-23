@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_655585_whmg.SelectOnlyOpenOrders</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>SelectOnlyOpenOrders</name>
+        <script><![CDATA[var SelectOnlyOpenOrders = Class.create();
+SelectOnlyOpenOrders.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	checkOrders: function() {
+		var isOpen;
+		var id = this.getParameter("sysparm_id");
+		var order = new GlideRecord('x_655585_whmg_order');
+		order.addQuery('sys_id', id);
+		order.query();
+		order.next();
+		if(order.status=='closed')
+			isOpen=false;
+		else
+			isOpen=true;
+		return isOpen;
+	}
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>marco.vella</sys_created_by>
+        <sys_created_on>2021-06-23 10:18:24</sys_created_on>
+        <sys_id>b36e51672fb03010d589d7492799b67b</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>SelectOnlyOpenOrders</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sys_script_include_b36e51672fb03010d589d7492799b67b</sys_update_name>
+        <sys_updated_by>marco.vella</sys_updated_by>
+        <sys_updated_on>2021-06-23 12:15:07</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</application>
+        <file_path/>
+        <instance_id>7b2064f9dbbb13404f035d00cf96199d</instance_id>
+        <instance_name>dev69466</instance_name>
+        <name>sys_script_include_b36e51672fb03010d589d7492799b67b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_655585_whmg.SelectOnlyOpenOrders&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;SelectOnlyOpenOrders&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var SelectOnlyOpenOrders = Class.create();
+SelectOnlyOpenOrders.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	checkOrders: function() {
+		var isOpen;
+		var id = this.getParameter("sysparm_id");
+		var order = new GlideRecord('x_655585_whmg_order');
+		order.addQuery('sys_id', id);
+		order.query();
+		order.next();
+		if(order.status=='closed')
+			isOpen=false;
+		else
+			isOpen=true;
+		return isOpen;
+	}
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;marco.vella&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-23 10:18:24&lt;/sys_created_on&gt;&lt;sys_id&gt;b36e51672fb03010d589d7492799b67b&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;SelectOnlyOpenOrders&lt;/sys_name&gt;&lt;sys_package display_value="Warehouse Management" source="x_655585_whmg"&gt;56e012ed2f303010d589d7492799b623&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Warehouse Management"&gt;56e012ed2f303010d589d7492799b623&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_b36e51672fb03010d589d7492799b67b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;marco.vella&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-23 12:15:07&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-163745379</payload_hash>
+        <record_name>SelectOnlyOpenOrders</record_name>
+        <reverted_from/>
+        <source>3a88f5e72ff03010d589d7492799b67d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marco.vella</sys_created_by>
+        <sys_created_on>2021-06-23 12:15:07</sys_created_on>
+        <sys_id>fffab56b2ff03010d589d7492799b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a38cba3fd0000001</sys_recorded_at>
+        <sys_updated_by>marco.vella</sys_updated_by>
+        <sys_updated_on>2021-06-23 12:15:07</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>7bfab56be7f0301050a6bf6df7095e97</update_guid>
+        <update_guid_history>7bfab56be7f0301050a6bf6df7095e97:-163745379,a178652f6cb030105859fcd7c54d7bb3:1715951870,1348a12f02b03010eeda80c111e0ba67:-2124570080,adc7212ff3b03010fea43cb23a213098:912140713,b387a12f05b030103898566f9acfec46:579293218,af67e9eb87b0301093697ab61ea1130d:1715951870,5457e5eb3bb0301001134387bbadc937:576263999,ffa625ebbcb030106099c5eb2237cd3f:892995441,67666dab2bb030108b60769e2ff51ad5:-1079978892,85c5a9ab8eb0301099b9a0875b962cec:464202838,2f95e5abaeb03010e629148828a5cfd1:151696374,217529abd6b03010b40f55132fd14564:-488533067,bc65e5abcbb03010cb6e80ea4d80c672:-409250701,b5f46d6b76b03010830ceeedf952edcf:-488533067,63b26de7bcb03010ecd8013a89d35c5f:-182697443,8ce1e9e7aab0301046a70b904db141c7:1239216576,0e40a5a7c5b0301061032f8347825e1d:-228959751</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>marco.vella</sys_created_by>
+        <sys_created_on>2021-06-23 12:27:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>04a09fb8339e411084ee776589d97369</sys_id>
+        <sys_metadata>b36e51672fb03010d589d7492799b67b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SelectOnlyOpenOrders</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_scope_delete display_value="">789dfa9f3c8742489e2ea1edeaad2139</sys_scope_delete>
+        <sys_update_name>sys_script_include_b36e51672fb03010d589d7492799b67b</sys_update_name>
+        <sys_update_version display_value="sys_script_include_b36e51672fb03010d589d7492799b67b">fffab56b2ff03010d589d7492799b697</sys_update_version>
+        <sys_updated_by>marco.vella</sys_updated_by>
+        <sys_updated_on>2021-06-23 12:27:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Warehouse Management">738b1a252f703010d589d7492799b609</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_655585_whmg_list_items">warehouse=^EQ<item endquery="false" field="warehouse" goto="false" newquery="false" operator="=" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>List items</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_655585_whmg_list_items</name>
+        <order>3</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-18 14:34:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>15fae4ce2f343010d589d7492799b697</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>List items</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sys_app_module_15fae4ce2f343010d589d7492799b697</sys_update_name>
+        <sys_updated_by>marco.vella</sys_updated_by>
+        <sys_updated_on>2021-06-22 13:41:05</sys_updated_on>
+        <timeline_page/>
+        <title>List items</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</application>
+        <file_path/>
+        <instance_id>7b2064f9dbbb13404f035d00cf96199d</instance_id>
+        <instance_name>dev69466</instance_name>
+        <name>sys_app_module_15fae4ce2f343010d589d7492799b697</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Warehouse Management">738b1a252f703010d589d7492799b609</application><assessment/><device_type/><filter table="x_655585_whmg_list_items">warehouse=^EQ<item endquery="false" field="warehouse" goto="false" newquery="false" operator="=" or="false" value=""/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>List items</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_655585_whmg_list_items</name><order>3</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>admin</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-18 14:34:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>15fae4ce2f343010d589d7492799b697</sys_id><sys_mod_count>5</sys_mod_count><sys_name>List items</sys_name><sys_overrides/><sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package><sys_policy/><sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope><sys_update_name>sys_app_module_15fae4ce2f343010d589d7492799b697</sys_update_name><sys_updated_by>marco.vella</sys_updated_by><sys_updated_on>2021-06-22 13:41:05</sys_updated_on><timeline_page/><title>List items</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>131578884</payload_hash>
+        <record_name>List items</record_name>
+        <reverted_from/>
+        <source>dee012ed2f303010d589d7492799b624</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>marco.vella</sys_created_by>
+        <sys_created_on>2021-06-22 13:41:05</sys_created_on>
+        <sys_id>a1158d572f343010d589d7492799b620</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a33f3fd2d0000001</sys_recorded_at>
+        <sys_updated_by>marco.vella</sys_updated_by>
+        <sys_updated_on>2021-06-22 13:41:05</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2d158d57d434301007c743ae954e891f</update_guid>
+        <update_guid_history>2d158d57d434301007c743ae954e891f:131578884,06b409572234301020fbbc45663aaea3:80422072,4e944157da3430102b8bebadae02ee11:-471337586,572ee84204743010d89e8e21f336fc4a:80422072,3a7de442f7743010dd7097776815f36e:353388085,51fae4ce86343010bef5c06adcc4f099:-1847161538</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="List items">25d34a632f343010d589d7492799b61a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 12:53:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0adba1081061471480ad25a33328afc4</sys_id>
+        <sys_metadata>15fae4ce2f343010d589d7492799b697</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List items</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_scope_delete display_value="">789dfa9f3c8742489e2ea1edeaad2139</sys_scope_delete>
+        <sys_update_name>sys_app_module_15fae4ce2f343010d589d7492799b697</sys_update_name>
+        <sys_update_version display_value="sys_app_module_15fae4ce2f343010d589d7492799b697">a1158d572f343010d589d7492799b620</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 12:53:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
