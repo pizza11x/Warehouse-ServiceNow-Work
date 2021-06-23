@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_655585_whmg.FilterCountryItaly</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Filter Country Italy</description>
+        <name>FilterCountryItaly</name>
+        <script><![CDATA[var FilterCountryItaly = Class.create();
+FilterCountryItaly.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	myFunction: function(){
+		var locationList = [];
+		var string = ' ';
+		var location = new GlideRecord('cmn_location');
+		location.addQuery('country', 'Italy');
+		location.query();
+		while(location.next()){
+				string += location.sys_id +',';
+		}
+		return string;
+	},
+	type: 'FilterCountryItaly'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-22 08:38:52</sys_created_on>
+        <sys_id>2a5dbb8f2f303010d589d7492799b697</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>FilterCountryItaly</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sys_script_include_2a5dbb8f2f303010d589d7492799b697</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-22 15:10:01</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</application>
+        <file_path/>
+        <instance_id>7b2064f9dbbb13404f035d00cf96199d</instance_id>
+        <instance_name>dev69466</instance_name>
+        <name>sys_script_include_2a5dbb8f2f303010d589d7492799b697</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;false&lt;/active&gt;&lt;api_name&gt;x_655585_whmg.FilterCountryItaly&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;Filter Country Italy&lt;/description&gt;&lt;name&gt;FilterCountryItaly&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var FilterCountryItaly = Class.create();
+FilterCountryItaly.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	myFunction: function(){
+		var locationList = [];
+		var string = ' ';
+		var location = new GlideRecord('cmn_location');
+		location.addQuery('country', 'Italy');
+		location.query();
+		while(location.next()){
+				string += location.sys_id +',';
+		}
+		return string;
+	},
+	type: 'FilterCountryItaly'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-22 08:38:52&lt;/sys_created_on&gt;&lt;sys_id&gt;2a5dbb8f2f303010d589d7492799b697&lt;/sys_id&gt;&lt;sys_mod_count&gt;39&lt;/sys_mod_count&gt;&lt;sys_name&gt;FilterCountryItaly&lt;/sys_name&gt;&lt;sys_package display_value="Warehouse Management" source="x_655585_whmg"&gt;56e012ed2f303010d589d7492799b623&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Warehouse Management"&gt;56e012ed2f303010d589d7492799b623&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_2a5dbb8f2f303010d589d7492799b697&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-22 15:10:01&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1833732153</payload_hash>
+        <record_name>FilterCountryItaly</record_name>
+        <reverted_from/>
+        <source>dee012ed2f303010d589d7492799b624</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-22 15:10:01</sys_created_on>
+        <sys_id>887955972f743010d589d7492799b60a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a344567670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-22 15:10:01</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>04795597f37430104ce7360123971d0a</update_guid>
+        <update_guid_history>04795597f37430104ce7360123971d0a:-1833732153,6b0591d3c5743010b65b7cc81419379c:-192582922,76e41d932f7430105d24299f5998c596:-1191628828,6d709d9f1d3430103f11766e4868d0a1:-1760355043,8f30d59f42343010dae825e6c71d1257:927480095,d1205d5fc1343010e9e891c34c22fa01:-1106831909,759fcd5f30343010f4be76c8d42589a2:-704651392,874f0d5fa1343010f0e6e13fba552cef:1124994401,6e8d891f8e343010654f0d9880036e39:-1988404998,867dc51fe234301069d52b838b95a35f:664932589,c05d851f793430106721923227b40c4b:-308373837,743d451fb2343010c67cb9ee1a4d63be:-1415659830,9c2d051f923430107e42e642b46e2710:-1473023202,841dc11f0f34301042fe736e2aa3a769:-548353387,cafc411f723430100eee9e238d8c70ea:-888410983,40dccddbb6343010f7d5dc48cbee87a1:1216551631,486c89db2a3430100c2cce47721d0c9e:-594029551,f50b099b4b3430101ab7da88bd3fe212:-737916471,a44ac95b6734301080cbb3fa304dfe2b:609598249,351a855b61343010e4cb5673cbf13173:674804744,a5b94d1b6f343010ecf3f79cd1abd368:-594029551,73c4415749343010b5baa75603a0126a:866603994,4bb08993c0343010a8015306dcfa2556:177731264,bb7045934034301091dadb6222d76f97:390585760,aacfb0531b34301010220f52ccab4c64:191650095,f1bf3053f8343010a11f07b5f726a33a:-2093977453,65de3013633430104f3df91990d5e930:-368077238,6b4d30df5af0301028f443777d4280ed:-1055604498,cafa709f14f0301066a20a1957a26d9e:-624227191,44e5349b87f03010d4b6bd5653378063:-1405717140,784e601708f03010190ceba76f6a2c82:-511032901,11ddac932bf030106388d8dea3e4695b:677277354,963f509b9ab0301088e7b772c299d4a3:579978079,4aeb9cd763b030100ac01a7997c6168c:-1631055303,f438d8d323b03010e5493a2990b2be4d:-1066009613,15b75c937cb030105237a18833673641:-1128960113,4d7dc0db04703010e1e1ec20cd144bee:1501452177,070c449b2a703010b09408425960df6d:198012465,c9584857347030109ffaa5d86607a522:516372992,66ef3303957030100ae3e16cd64ff683:198012465</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 07:29:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>0918f4b1ede04cce819ec1d4f21eab59</sys_id>
+        <sys_metadata>2a5dbb8f2f303010d589d7492799b697</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FilterCountryItaly</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_scope_delete display_value="">789dfa9f3c8742489e2ea1edeaad2139</sys_scope_delete>
+        <sys_update_name>sys_script_include_2a5dbb8f2f303010d589d7492799b697</sys_update_name>
+        <sys_update_version display_value="sys_script_include_2a5dbb8f2f303010d589d7492799b697">887955972f743010d589d7492799b60a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 07:29:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

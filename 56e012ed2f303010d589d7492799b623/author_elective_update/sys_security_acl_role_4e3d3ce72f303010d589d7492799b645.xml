@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 07:45:12</sys_created_on>
+        <sys_id>4e3d3ce72f303010d589d7492799b645</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_655585_whmg_location_warehouse.x_655585_whmg.location_warehouse_user</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_security_acl display_value="x_655585_whmg_location_warehouse">8e3d3ce72f303010d589d7492799b642</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_4e3d3ce72f303010d589d7492799b645</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 07:45:12</sys_updated_on>
+        <sys_user_role display_value="x_655585_whmg.location_warehouse_user" name="x_655585_whmg.location_warehouse_user">a93d3ca72f303010d589d7492799b6e8</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</application>
+        <file_path/>
+        <instance_id>7b2064f9dbbb13404f035d00cf96199d</instance_id>
+        <instance_name>dev69466</instance_name>
+        <name>sys_security_acl_role_4e3d3ce72f303010d589d7492799b645</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-23 07:45:12</sys_created_on><sys_id>4e3d3ce72f303010d589d7492799b645</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_655585_whmg_location_warehouse.x_655585_whmg.location_warehouse_user</sys_name><sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package><sys_policy/><sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope><sys_security_acl display_value="x_655585_whmg_location_warehouse">8e3d3ce72f303010d589d7492799b642</sys_security_acl><sys_update_name>sys_security_acl_role_4e3d3ce72f303010d589d7492799b645</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-23 07:45:12</sys_updated_on><sys_user_role display_value="x_655585_whmg.location_warehouse_user" name="x_655585_whmg.location_warehouse_user">a93d3ca72f303010d589d7492799b6e8</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-999500919</payload_hash>
+        <record_name>x_655585_whmg_location_warehouse.x_655585_whmg.location_warehouse_user</record_name>
+        <reverted_from/>
+        <source>a0c8f8a32f303010d589d7492799b687</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 07:45:12</sys_created_on>
+        <sys_id>8e3d3ce72f303010d589d7492799b654</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a37d486040000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 07:45:12</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>c63d3ce72e303010a0064a348cee3754</update_guid>
+        <update_guid_history>c63d3ce72e303010a0064a348cee3754:-999500919</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_655585_whmg_location_warehouse.x_655585_whmg.location_warehouse_user">096c4d672f703010d589d7492799b664</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 08:51:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>63cf116d1b1148b09616b21075cd8900</sys_id>
+        <sys_metadata>4e3d3ce72f303010d589d7492799b645</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_655585_whmg_location_warehouse.x_655585_whmg.location_warehouse_user</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_parent display_value="">8e3d3ce72f303010d589d7492799b642</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_scope_delete display_value="">789dfa9f3c8742489e2ea1edeaad2139</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_4e3d3ce72f303010d589d7492799b645</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_4e3d3ce72f303010d589d7492799b645">8e3d3ce72f303010d589d7492799b654</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 08:51:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

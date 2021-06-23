@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Location Warehouse">393df8e72f303010d589d7492799b6e9</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Location Warehouses</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_655585_whmg_location_warehouse</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_655585_whmg.location_warehouse_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 07:45:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>313df8e72f303010d589d7492799b6ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Location Warehouses</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sys_app_module_313df8e72f303010d589d7492799b6ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 07:45:11</sys_updated_on>
+        <timeline_page/>
+        <title>Location Warehouses</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</application>
+        <file_path/>
+        <instance_id>7b2064f9dbbb13404f035d00cf96199d</instance_id>
+        <instance_name>dev69466</instance_name>
+        <name>sys_app_module_313df8e72f303010d589d7492799b6ed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Location Warehouse">393df8e72f303010d589d7492799b6e9</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Location Warehouses</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_655585_whmg_location_warehouse</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_655585_whmg.location_warehouse_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-23 07:45:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>313df8e72f303010d589d7492799b6ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Location Warehouses</sys_name><sys_overrides/><sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package><sys_policy/><sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope><sys_update_name>sys_app_module_313df8e72f303010d589d7492799b6ed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-23 07:45:11</sys_updated_on><timeline_page/><title>Location Warehouses</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-2136509644</payload_hash>
+        <record_name>Location Warehouses</record_name>
+        <reverted_from/>
+        <source>a0c8f8a32f303010d589d7492799b687</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 07:45:11</sys_created_on>
+        <sys_id>f93df8e72f303010d589d7492799b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a37d482b90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 07:45:11</sys_updated_on>
+        <type>Module</type>
+        <update_guid>7d3df8e7743030105794affc9654a3ef</update_guid>
+        <update_guid_history>7d3df8e7743030105794affc9654a3ef:-2136509644</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Location Warehouses">6a6d702b2f303010d589d7492799b626</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 07:46:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0568663eb2ef481d80e881a4da393101</sys_id>
+        <sys_metadata>313df8e72f303010d589d7492799b6ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Location Warehouses</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_scope_delete display_value="">789dfa9f3c8742489e2ea1edeaad2139</sys_scope_delete>
+        <sys_update_name>sys_app_module_313df8e72f303010d589d7492799b6ed</sys_update_name>
+        <sys_update_version display_value="sys_app_module_313df8e72f303010d589d7492799b6ed">f93df8e72f303010d589d7492799b6fc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 07:46:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
