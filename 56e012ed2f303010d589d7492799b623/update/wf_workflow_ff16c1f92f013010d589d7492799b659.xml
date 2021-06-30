@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"stages":{"5cc4ae752f453010d589d7492799b666":{"order":100,"duration":"1 Day","stageId":"5cc4ae752f453010d589d7492799b666","name":"Waiting for Approval","value":"waiting_for_approval"}},"subflows":[],"ends":["d8c4ae752f453010d589d7492799b66a"],"activities":{"d0c4ae752f453010d589d7492799b669":"5cc4ae752f453010d589d7492799b666"}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description/>
+        <expected_sequences>5cc4ae752f453010d589d7492799b667,d0c4ae752f453010d589d7492799b669,d8c4ae752f453010d589d7492799b66a</expected_sequences>
+        <expected_time/>
+        <expected_time_type/>
+        <full_sequences>5cc4ae752f453010d589d7492799b667,d0c4ae752f453010d589d7492799b669,d8c4ae752f453010d589d7492799b66a</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Insert to requested WH</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration display_value="2 business days by 4pm">3bf802c20a0a0b52008e2859cd8abcf2</relative_duration>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field>stage</stage_field>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">5cc4ae752f453010d589d7492799b667</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 15:03:54</sys_created_on>
+        <sys_id>d0c4ae752f453010d589d7492799b665</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 15:29:04</sys_updated_on>
+        <table>x_655585_whmg_requested_hw</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="Insert to requested WH">ff16c1f92f013010d589d7492799b659</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>Insert to requested WH</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 08:10:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ff16c1f92f013010d589d7492799b659</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Insert to requested WH</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>wf_workflow_ff16c1f92f013010d589d7492799b659</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 14:58:58</sys_updated_on>
+        <table>x_655585_whmg_requested_hw</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 15:03:54</sys_created_on>
+        <sys_id>dcc4ae752f453010d589d7492799b666</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 15:03:54</sys_updated_on>
+        <value>complete</value>
+        <workflow_version display_value="Insert to requested WH">d0c4ae752f453010d589d7492799b665</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Delivery</name>
+        <ola>1970-01-03 00:00:00</ola>
+        <order>140</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 15:03:54</sys_created_on>
+        <sys_id>d0c4ae752f453010d589d7492799b667</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 15:03:54</sys_updated_on>
+        <value>delivery</value>
+        <workflow_version display_value="Insert to requested WH">d0c4ae752f453010d589d7492799b665</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Fulfillment</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>120</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 15:03:54</sys_created_on>
+        <sys_id>54c4ae752f453010d589d7492799b667</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 15:03:54</sys_updated_on>
+        <value>fulfillment</value>
+        <workflow_version display_value="Insert to requested WH">d0c4ae752f453010d589d7492799b665</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Cancelled</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1000</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 15:03:54</sys_created_on>
+        <sys_id>d4c4ae752f453010d589d7492799b667</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 15:03:54</sys_updated_on>
+        <value>Request Cancelled</value>
+        <workflow_version display_value="Insert to requested WH">d0c4ae752f453010d589d7492799b665</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Approved</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>90</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 15:03:54</sys_created_on>
+        <sys_id>50c4ae752f453010d589d7492799b667</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 15:03:54</sys_updated_on>
+        <value>request_approved</value>
+        <workflow_version display_value="Insert to requested WH">d0c4ae752f453010d589d7492799b665</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Waiting for Approval</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 15:03:54</sys_created_on>
+        <sys_id>5cc4ae752f453010d589d7492799b666</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 15:03:54</sys_updated_on>
+        <value>waiting_for_approval</value>
+        <workflow_version display_value="Insert to requested WH">d0c4ae752f453010d589d7492799b665</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 15:03:54</sys_created_on>
+        <sys_id>5cc4ae752f453010d589d7492799b667</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 15:03:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Insert to requested WH">d0c4ae752f453010d589d7492799b665</workflow_version>
+        <x>40</x>
+        <y>49</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=5cc4ae752f453010d589d7492799b667"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">5cc4ae752f453010d589d7492799b667</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 15:03:54</sys_created_on>
+        <sys_id>98c4ae752f453010d589d7492799b668</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 15:03:54</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 15:03:54</sys_created_on>
+        <sys_id>d8c4ae752f453010d589d7492799b66a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 15:03:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Insert to requested WH">d0c4ae752f453010d589d7492799b665</workflow_version>
+        <x>834</x>
+        <y>53</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=d8c4ae752f453010d589d7492799b66a"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Insert to requested WH</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Waiting for Approval">5cc4ae752f453010d589d7492799b666</stage>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 15:03:54</sys_created_on>
+        <sys_id>d0c4ae752f453010d589d7492799b669</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 15:21:33</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Insert to requested WH">d0c4ae752f453010d589d7492799b665</workflow_version>
+        <x>434</x>
+        <y>52</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=d0c4ae752f453010d589d7492799b669"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d0c4ae752f453010d589d7492799b669</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 15:03:54</sys_created_on>
+        <sys_id>d4c4ae752f453010d589d7492799b669</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 15:21:33</sys_updated_on>
+        <value>var requested = new GlideRecord('x_655585_whmg_requested_hw');&#13;
+var item = new GlideRecord('sc_cat_item');&#13;
+var catalog = new GlideRecord('sc_catalog');&#13;
+catalog.addQuery('title', 'Warehouse');&#13;
+catalog.query();&#13;
+catalog.next();&#13;
+item.addQuery('short_description', current.short_description);&#13;
+item.addQuery('sc_catalogs', catalog.sys_id);&#13;
+item.query();&#13;
+item.next();&#13;
+requested.newRecord();&#13;
+gs.addInfoMessage(current.stage);&#13;
+requested.item_requested = item.sys_id;&#13;
+var utente = gs.getUser();&#13;
+requested.applicant = utente.getName();&#13;
+requested.insert();&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d0c4ae752f453010d589d7492799b669</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 15:03:54</sys_created_on>
+        <sys_id>d4c4ae752f453010d589d7492799b669</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 15:21:33</sys_updated_on>
+        <value>var requested = new GlideRecord('x_655585_whmg_requested_hw');&#13;
+var item = new GlideRecord('sc_cat_item');&#13;
+var catalog = new GlideRecord('sc_catalog');&#13;
+catalog.addQuery('title', 'Warehouse');&#13;
+catalog.query();&#13;
+catalog.next();&#13;
+item.addQuery('short_description', current.short_description);&#13;
+item.addQuery('sc_catalogs', catalog.sys_id);&#13;
+item.query();&#13;
+item.next();&#13;
+requested.newRecord();&#13;
+gs.addInfoMessage(current.stage);&#13;
+requested.item_requested = item.sys_id;&#13;
+var utente = gs.getUser();&#13;
+requested.applicant = utente.getName();&#13;
+requested.insert();&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Insert to requested WH">d0c4ae752f453010d589d7492799b669</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>1</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 15:03:54</sys_created_on>
+        <sys_id>54c4ae752f453010d589d7492799b66a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 15:03:54</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">54c4ae752f453010d589d7492799b66a</condition>
+        <from display_value="Insert to requested WH">d0c4ae752f453010d589d7492799b669</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 15:03:54</sys_created_on>
+        <sys_id>18c4ae752f453010d589d7492799b66c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 15:03:54</sys_updated_on>
+        <to display_value="End">d8c4ae752f453010d589d7492799b66a</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">98c4ae752f453010d589d7492799b668</condition>
+        <from display_value="Begin">5cc4ae752f453010d589d7492799b667</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 15:03:54</sys_created_on>
+        <sys_id>1cc4ae752f453010d589d7492799b66c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 15:03:54</sys_updated_on>
+        <to display_value="Insert to requested WH">d0c4ae752f453010d589d7492799b669</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 15:03:54</sys_created_on>
+        <sys_id>94c4ae752f453010d589d7492799b665</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 15:03:54</sys_updated_on>
+        <workflow_version display_value="Insert to requested WH">d0c4ae752f453010d589d7492799b665</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=ff16c1f92f013010d589d7492799b659^sys_id!=d0c4ae752f453010d589d7492799b665">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

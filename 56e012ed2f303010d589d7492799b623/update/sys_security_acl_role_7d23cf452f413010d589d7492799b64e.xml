@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-28 09:21:15</sys_created_on>
+        <sys_id>7d23cf452f413010d589d7492799b64e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_655585_whmg_requested_hw.x_655585_whmg.requested_hw_warehouse_user</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_security_acl display_value="x_655585_whmg_requested_hw">6d23cf452f413010d589d7492799b64a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_7d23cf452f413010d589d7492799b64e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-28 09:21:15</sys_updated_on>
+        <sys_user_role display_value="x_655585_whmg.requested_hw_warehouse_user" name="x_655585_whmg.requested_hw_warehouse_user">112347452f413010d589d7492799b694</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

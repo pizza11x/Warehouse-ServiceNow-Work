@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_655585_whmg.requested_hw_warehouse_user" name="x_655585_whmg.requested_hw_warehouse_user">112347452f413010d589d7492799b694</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-28 09:21:14</sys_created_on>
+        <sys_id>952347452f413010d589d7492799b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>112347452f413010d589d7492799b694</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sys_embedded_help_role_952347452f413010d589d7492799b697</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-28 09:21:14</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
