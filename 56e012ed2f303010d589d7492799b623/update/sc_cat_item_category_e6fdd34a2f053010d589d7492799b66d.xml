@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="My Obj">bdad134a2f053010d589d7492799b627</sc_cat_item>
+        <sc_category display_value="Hardware">c6bebe412f413010d589d7492799b64a</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-01 13:52:23</sys_created_on>
+        <sys_id>e6fdd34a2f053010d589d7492799b66d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware.My Obj</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sc_cat_item_category_e6fdd34a2f053010d589d7492799b66d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-01 13:52:23</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

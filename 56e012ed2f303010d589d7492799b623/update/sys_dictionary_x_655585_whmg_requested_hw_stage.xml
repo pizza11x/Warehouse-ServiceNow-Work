@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>icons=WorkflowIconsSCR</attributes>
+        <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -11,10 +11,10 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice/>
+        <choice>1</choice>
         <choice_field>stage</choice_field>
-        <choice_table>sc_request</choice_table>
-        <column_label>requested</column_label>
+        <choice_table/>
+        <column_label>Stage</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-28 09:33:38</sys_created_on>
-        <sys_id>24e5cfc52f413010d589d7492799b6d5</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_name>requested</sys_name>
+        <sys_created_on>2021-07-01 07:52:20</sys_created_on>
+        <sys_id>596b8ec62f013010d589d7492799b636</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Stage</sys_name>
         <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
         <sys_policy/>
         <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
         <sys_update_name>sys_dictionary_x_655585_whmg_requested_hw_stage</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-30 15:35:36</sys_updated_on>
+        <sys_updated_on>2021-07-01 10:37:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

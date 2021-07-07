@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Requested HW Warehouse" max_length="40" name="x_655585_whmg_requested_hw" sizeclass="3" type="collection">
+    <element label="Requested HW Warehouse" max_length="40" name="x_655585_whmg_requested_hw" sizeclass="27" type="collection">
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Applicant" max_length="32" name="applicant" reference="sys_user" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Approver" max_length="32" name="approver" reference="sys_user" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Item requested" max_length="32" name="item_requested" reference="sc_cat_item" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Quantity" max_length="40" name="quantity" type="integer"/>
-        <element attributes="icons=WorkflowIconsSCR" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice_field="stage" choice_table="sc_request" label="requested" max_length="80" name="stage" type="workflow"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" choice_field="stage" label="Stage" max_length="80" name="stage" type="workflow">
+            <choice>
+                <element inactive_on_update="false" label="Waiting for Approval" sequence="100" value="waiting_for_approval"/>
+                <element inactive_on_update="false" label="Request Approved" sequence="110" value="request_approved"/>
+                <element inactive_on_update="false" label="Fulfillment" sequence="120" value="fulfillment"/>
+                <element inactive_on_update="false" label="Delivery" sequence="140" value="delivery"/>
+                <element inactive_on_update="false" label="Completed" sequence="1100" value="complete"/>
+                <element inactive_on_update="false" label="Request Cancelled" sequence="1500" value="Request Cancelled"/>
+            </choice>
+        </element>
         <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
             <element name="approver"/>
