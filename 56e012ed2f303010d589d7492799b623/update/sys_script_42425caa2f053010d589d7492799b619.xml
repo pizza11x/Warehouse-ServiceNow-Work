@@ -39,7 +39,8 @@
 	var quantity = requested.getValue('quantity');
 	var body = {
 		'u_item': item,
-		'u_quantity': quantity
+		'u_quantity': quantity,
+		'u_ritm_request': requested.getValue('number')
 	};
 	
 	try { 
@@ -59,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>42425caa2f053010d589d7492799b619</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name>REST</sys_name>
         <sys_overrides/>
         <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
@@ -67,7 +68,7 @@
         <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
         <sys_update_name>sys_script_42425caa2f053010d589d7492799b619</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-06 15:53:29</sys_updated_on>
+        <sys_updated_on>2021-07-07 08:25:39</sys_updated_on>
         <template/>
         <when>async</when>
     </sys_script>
