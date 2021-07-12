@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog">
+    <m2m_sp_portal_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <sc_catalog display_value="Warehouse">894ef6412f413010d589d7492799b614</sc_catalog>
+        <sp_portal display_value="Warehouse Portal">55aa47a52fd13010d589d7492799b60c</sp_portal>
+        <sys_class_name>m2m_sp_portal_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 09:55:20</sys_created_on>
+        <sys_id>59315ba92fd13010d589d7492799b693</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Warehouse.Warehouse Portal</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>m2m_sp_portal_catalog_59315ba92fd13010d589d7492799b693</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-12 09:55:20</sys_updated_on>
+    </m2m_sp_portal_catalog>
+</record_update>

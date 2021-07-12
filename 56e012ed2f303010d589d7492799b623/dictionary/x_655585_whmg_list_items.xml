@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="List Items" max_length="40" name="x_655585_whmg_list_items" sizeclass="4" type="collection">
+    <element label="List Items" max_length="40" name="x_655585_whmg_list_items" sizeclass="1" type="collection">
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Id" mandatory="true" max_length="15" name="id" read_only="true" type="string"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Items" mandatory="true" max_length="32" name="item" read_only="true" reference="sc_cat_item" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Quantity" mandatory="true" max_length="40" name="quantity" read_only="true" type="integer"/>

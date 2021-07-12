@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables>$brand-primary: #428bca;
+$body-bg: #fff;
+$state-success-text: #5cb85c;
+$sp-homepage-bg: #fff;
+$sp-navbar-divider-color: #455464;
+$text-color: #717171;
+$sp-logo-margin-y: .5rem;
+$navbar-inverse-link-hover-color: #ffffff;
+$panel-bg: #fff;
+$brand-success: #5cb85c;
+$navbar-inverse-bg: #3a3f51;
+$brand-warning: #f0ad4e;
+$brand-danger: #d9534f;
+$sp-tagline-color: #83bfff;
+$navbar-inverse-link-color: #bdc0c4;
+$brand-info: #5bc0de;
+$link-color: #428bca;
+$sp-logo-margin-x: 1rem;
+$btn-default-bg: #fff;
+$text-muted: #979797;
+</css_variables>
+        <default>false</default>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage/>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config>[{&#13;
+	"tagline": {&#13;
+		"table" : "sp_instance",&#13;
+		"sys_id" : "34fe3d96cb20020000f8d856634c9cf4",&#13;
+		"field" : "title"&#13;
+	},&#13;
+	"hero_background": {&#13;
+		"table" : "sp_container",&#13;
+		"sys_id" : "be98a8d2cb20020000f8d856634c9c63",&#13;
+		"field" : "background_image"&#13;
+	}&#13;
+}]</quick_start_config>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 09:35:43</sys_created_on>
+        <sys_id>55aa47a52fd13010d589d7492799b60c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Warehouse Portal</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sp_portal_55aa47a52fd13010d589d7492799b60c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-12 10:05:22</sys_updated_on>
+        <theme display_value="La Jolla">a7a6e78277002300a6e592718a10617a</theme>
+        <title>Warehouse Portal</title>
+        <ts_index_group/>
+        <url_suffix>wp</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=55aa47a52fd13010d589d7492799b60c"/>
+</record_update>
