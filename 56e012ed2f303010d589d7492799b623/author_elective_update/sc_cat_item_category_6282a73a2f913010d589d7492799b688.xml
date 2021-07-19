@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Copy of Lenovo Windows 11 i9">26822ff62f913010d589d7492799b6d6</sc_cat_item>
+        <sc_category display_value="Hardware1">c6bebe412f413010d589d7492799b64a</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-16 08:23:27</sys_created_on>
+        <sys_id>6282a73a2f913010d589d7492799b688</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware1.Copy of Lenovo Windows 11 i9</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sc_cat_item_category_6282a73a2f913010d589d7492799b688</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-16 08:23:27</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</application>
+        <file_path/>
+        <instance_id>7b2064f9dbbb13404f035d00cf96199d</instance_id>
+        <instance_name>dev69466</instance_name>
+        <name>sc_cat_item_category_6282a73a2f913010d589d7492799b688</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Copy of Lenovo Windows 11 i9">26822ff62f913010d589d7492799b6d6</sc_cat_item><sc_category display_value="Hardware1">c6bebe412f413010d589d7492799b64a</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-16 08:23:27</sys_created_on><sys_id>6282a73a2f913010d589d7492799b688</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hardware1.Copy of Lenovo Windows 11 i9</sys_name><sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package><sys_policy/><sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope><sys_update_name>sc_cat_item_category_6282a73a2f913010d589d7492799b688</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-16 08:23:27</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1279051808</payload_hash>
+        <record_name>Hardware1.Copy of Lenovo Windows 11 i9</record_name>
+        <reverted_from/>
+        <source>a0c8f8a32f303010d589d7492799b687</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-16 08:23:27</sys_created_on>
+        <sys_id>6682a73a2f913010d589d7492799b68b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17aae69cef10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-16 08:23:27</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>ae82a73acc913010401513c51d5dd58a</update_guid>
+        <update_guid_history>ae82a73acc913010401513c51d5dd58a:1279051808</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Hardware1.Copy of Lenovo Windows 11 i9">e7922b3a2f913010d589d7492799b624</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-16 08:23:48</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>5e0e21beee9d429e91e7988efa88fe01</sys_id>
+        <sys_metadata>6282a73a2f913010d589d7492799b688</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware1.Copy of Lenovo Windows 11 i9</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_scope_delete display_value="">789dfa9f3c8742489e2ea1edeaad2139</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_6282a73a2f913010d589d7492799b688</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_6282a73a2f913010d589d7492799b688">6682a73a2f913010d589d7492799b68b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-16 08:23:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

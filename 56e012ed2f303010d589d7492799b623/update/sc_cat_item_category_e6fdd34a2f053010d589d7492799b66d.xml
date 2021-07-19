@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="My Obj">bdad134a2f053010d589d7492799b627</sc_cat_item>
-        <sc_category display_value="Hardware">c6bebe412f413010d589d7492799b64a</sc_category>
+        <sc_cat_item display_value="Camera">bdad134a2f053010d589d7492799b627</sc_cat_item>
+        <sc_category display_value="Hardware1">c6bebe412f413010d589d7492799b64a</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-01 13:52:23</sys_created_on>

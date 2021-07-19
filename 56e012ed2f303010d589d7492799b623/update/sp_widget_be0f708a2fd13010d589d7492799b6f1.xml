@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+var c = this;
+	
+$( "#selectItem" ).change(function(){
+		c.onChange();
+	});
+	
+	$( "#selectOrder" ).change(function(){
+		if(this.value.length == '')
+			document.getElementById('maxQuantity').style.display = 'none'
+		else
+		{
+				document.getElementById('maxQuantity').style.display = 'block'
+				c.calculateQuantity();
+		}
+
+});
+	
+	$( "#selectWarehouse" ).change(function(){
+		if(this.value === '')
+			document.getElementById('whCapacity').style.display = 'none'
+		else
+		{
+				document.getElementById('whCapacity').style.display = 'block'
+				c.calculateCapacity();
+		}
+	});
+	
+	c.onChange = function(){
+		c.data.action = 'onchange';
+			c.data.element = document.getElementById('selectItem').value;
+		c.server.update().then(function(){
+			c.data.action = undefined;
+		})
+	}
+	
+	c.onClick = function(){
+		c.data.action = 'onclick';
+		c.data.idOrderInput = document.getElementById('selectOrder').value;
+		c.data.qntInput = document.getElementById('inputQuantity').value;
+		c.data.whInput = document.getElementById('selectWarehouse').value;
+		c.server.update().then(function(){
+			c.data.action = undefined;
+			document.getElementById('selectOrder').value = '';
+			document.getElementById('inputQuantity').value = '';
+			document.getElementById('selectWarehouse').value = '';
+			document.getElementById('selectItem').value = '';
+			document.getElementById('maxQuantity').style.display = 'none';
+			document.getElementById('whCapacity').style.display = 'none';
+			
+		})
+	}
+	
+	c.calculateQuantity = function(){
+		c.data.action = 'calculateQuantity';
+		c.data.idOrder = document.getElementById('selectOrder').value;
+		c.server.update().then(function(){
+			c.data.action = undefined;
+			
+		})
+	}
+	
+	c.calculateCapacity = function(){
+		c.data.action = 'calculateCapacity';
+		c.data.whIndex = document.getElementById('selectWarehouse').value;
+		c.server.update().then(function(){
+			c.data.action = undefined;
+		})
+	}
+	
+	
+}
+
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.externalBox{
+  border: solid 3px #f5f5f5;
+  border-radius: 2%;
+  padding: 0;
+}
+
+.cntBody{
+  padding:5%;
+
+}
+
+.pMoveTo{
+ 	color: black;
+  text-weight: 2%;
+}
+
+.internalBox{
+  width: 50%;
+  margin-top: 3%;
+  float: left;  
+}
+
+#btnMoveTo{
+  background-color: #0064aa;
+  color: #FFFFFF;
+  position: center;
+  width: 25%;
+}
+
+.cntTitle{
+  margin: 0;
+  padding: 1%;
+  color: black;
+  background-color: #f5f5f5;
+  border: solid 2px #f5f5f5;
+  text-weight: 1%;
+  text-align: center;
+}
+
+.cntButton{
+  display: inline-block;
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 3%;
+  border: none;
+	text-align:center; 
+}
+
+#maxQuantity{
+  display: none;
+ position: absolute;
+  right: 30%;
+  top: 68%;
+}
+
+#whCapacity{
+  display: none;
+ 	position: absolute;
+  left: 12%;
+  top: 68%;
+  
+}
+  
+  </css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>move_to</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Move to</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	var wh = new GlideRecord('x_655585_whmg_warehouse');
+		wh.query();
+		var whList = [];
+		while(wh.next()){
+				whList.push(wh.number.toString());
+		}
+		data.wh=whList;
+	
+		var wares = new GlideRecord('x_655585_whmg_wares');
+		wares.query();
+		var itemsList = [];
+		while(wares.next()){
+			if(itemsList.toString().indexOf(wares.getDisplayValue('item').toString())<0)
+				itemsList.push(wares.getDisplayValue('item').toString());
+		}
+		data.items=itemsList;
+
+	if(input){
+		
+	if(input.action == 'onchange'){
+		
+		data.fillOrders = new ItemChangeInWidget().getOrderId(input.element);
+	}
+		
+		if(input.action == 'calculateQuantity'){
+		data.quantity = new GetOrderQuantity().getOrder(input.idOrder);
+	}
+		
+		
+		if(input.action == 'calculateCapacity'){
+		
+		data.capacity = new CalculateCapacity().lastingSpace(input.whIndex);
+		}
+		
+		if(input.action == 'onclick'){
+			if(input.idOrderInput == '' || input.qntInput == '' || input.whInput == '')
+			{
+					gs.addErrorMessage('Enter all value');
+			}
+			else{
+					data.moveToIL = new MoveToWhWidget().wareUpdate(input.idOrderInput, input.qntInput, input.whInput);
+					if(data.moveToIL)
+						gs.addInfoMessage('Operation Completed');
+					else
+						gs.addErrorMessage('Operation failed');
+			}
+		}
+		
+	}
+	
+})();
+
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-13 12:33:42</sys_created_on>
+        <sys_id>be0f708a2fd13010d589d7492799b6f1</sys_id>
+        <sys_mod_count>367</sys_mod_count>
+        <sys_name>Move to</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sp_widget_be0f708a2fd13010d589d7492799b6f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-19 09:03:04</sys_updated_on>
+        <template><![CDATA[<div class="container-fluid externalBox">
+  <div class="cntTitle">
+    <h3>
+      Move items from "Wares" to "List Items"
+    </h3>
+  </div>
+
+  <div class="cntBody">
+  	<div class="container-fluid internalBox">
+    	<p class='pMoveTo'>
+      	Select Item to move:
+    	</p>
+    	<select id='selectItem'>
+        <option value=''></option>
+      	<option ng-repeat="x in c.data.items">{{x}}</option>
+    	</select>
+  	</div>
+    
+    <div class="container-fluid internalBox">
+    	<p class='pMoveTo'>
+      	Select Order:
+    	</p>
+    	<select id='selectOrder'>
+        <option value=''></option>
+      	<option ng-repeat="z in c.data.fillOrders">{{z}}</option>
+    	</select>
+  	</div>
+  
+  	<div class="container-fluid internalBox">
+    	<p class='pMoveTo'>
+      	Select Warehouse:
+    	</p>
+    	<select id='selectWarehouse'>
+        <option value=''></option>
+      	<option ng-repeat="y in c.data.wh">{{y}}</option>
+    	</select>
+  	</div>
+  
+   	<div class="container-fluid internalBox">
+    	<p class='pMoveTo'>
+      	Enter the quantity to move:
+    	</p>
+    	<input type="text" id='inputQuantity'>
+  	</div>
+  </div>
+  
+  <div class="container-fluid infoBox">
+    <p id='whCapacity'>
+      WH Capacity: {{c.data.capacity}}
+    </p>
+  </div>
+
+ 	<div class="container-fluid infoBox">
+    <p id='maxQuantity'>
+      Max quantity: {{c.data.quantity}}
+    </p>
+  </div>
+  
+	
+  <div class="cntButton">
+    <input type="button" id="btnMoveTo" value="Move To" ng-click="c.onClick()" >
+  </div>
+  
+</div>]]></template>
+    </sp_widget>
+</record_update>

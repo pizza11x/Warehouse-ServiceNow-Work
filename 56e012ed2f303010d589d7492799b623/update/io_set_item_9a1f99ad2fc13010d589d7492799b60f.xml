@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>100</order>
-        <sc_cat_item display_value="Apple iPad 3">7af18b052f413010d589d7492799b64c</sc_cat_item>
+        <sc_cat_item display_value="Apple iPad 8">7af18b052f413010d589d7492799b64c</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-29 15:21:04</sys_created_on>

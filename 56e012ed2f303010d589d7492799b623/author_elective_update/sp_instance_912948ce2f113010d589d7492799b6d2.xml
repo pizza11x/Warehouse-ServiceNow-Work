@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">5c9f77392f113010d589d7492799b655</sp_column>
+        <sp_widget display_value="SC Order Status">86eb2c8e9f4332002528d4b4232e708a</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-13 08:38:12</sys_created_on>
+        <sys_id>912948ce2f113010d589d7492799b6d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sp_instance_912948ce2f113010d589d7492799b6d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-13 08:38:12</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=912948ce2f113010d589d7492799b6d2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</application>
+        <file_path/>
+        <instance_id>7b2064f9dbbb13404f035d00cf96199d</instance_id>
+        <instance_name>dev69466</instance_name>
+        <name>sp_instance_912948ce2f113010d589d7492799b6d2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="3">5c9f77392f113010d589d7492799b655</sp_column><sp_widget display_value="SC Order Status">86eb2c8e9f4332002528d4b4232e708a</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-13 08:38:12</sys_created_on><sys_id>912948ce2f113010d589d7492799b6d2</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package><sys_policy/><sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope><sys_update_name>sp_instance_912948ce2f113010d589d7492799b6d2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-13 08:38:12</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=912948ce2f113010d589d7492799b6d2"/></record_update>]]></payload>
+        <payload_hash>-556960994</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a0c8f8a32f303010d589d7492799b687</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-13 08:38:12</sys_created_on>
+        <sys_id>152948ce2f113010d589d7492799b6d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a9f043be90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-13 08:38:12</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>5d2948cefa1130109e0181a783557cd3</update_guid>
+        <update_guid_history>5d2948cefa1130109e0181a783557cd3:-556960994</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">bf29c4ce2f113010d589d7492799b642</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-13 08:38:23</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>68e17548d8dc43a088a1ab7a128a2b29</sys_id>
+        <sys_metadata>912948ce2f113010d589d7492799b6d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_scope_delete display_value="">789dfa9f3c8742489e2ea1edeaad2139</sys_scope_delete>
+        <sys_update_name>sp_instance_912948ce2f113010d589d7492799b6d2</sys_update_name>
+        <sys_update_version display_value="sp_instance_912948ce2f113010d589d7492799b6d2">152948ce2f113010d589d7492799b6d4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-13 08:38:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

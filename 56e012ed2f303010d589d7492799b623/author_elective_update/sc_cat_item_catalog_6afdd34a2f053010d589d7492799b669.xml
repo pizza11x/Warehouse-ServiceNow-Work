@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="My Obj">bdad134a2f053010d589d7492799b627</sc_cat_item>
+        <sc_catalog display_value="Warehouse">894ef6412f413010d589d7492799b614</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-01 13:52:23</sys_created_on>
+        <sys_id>6afdd34a2f053010d589d7492799b669</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Warehouse.My Obj</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_6afdd34a2f053010d589d7492799b669</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-01 13:52:23</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</application>
+        <file_path/>
+        <instance_id>7b2064f9dbbb13404f035d00cf96199d</instance_id>
+        <instance_name>dev69466</instance_name>
+        <name>sc_cat_item_catalog_6afdd34a2f053010d589d7492799b669</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="My Obj">bdad134a2f053010d589d7492799b627</sc_cat_item><sc_catalog display_value="Warehouse">894ef6412f413010d589d7492799b614</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-01 13:52:23</sys_created_on><sys_id>6afdd34a2f053010d589d7492799b669</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Warehouse.My Obj</sys_name><sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package><sys_policy/><sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope><sys_update_name>sc_cat_item_catalog_6afdd34a2f053010d589d7492799b669</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-01 13:52:23</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>74454513</payload_hash>
+        <record_name>Warehouse.My Obj</record_name>
+        <reverted_from/>
+        <source>a0c8f8a32f303010d589d7492799b687</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-01 13:52:23</sys_created_on>
+        <sys_id>aefdd34a2f053010d589d7492799b66c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a62578f480000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-01 13:52:23</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>e6fdd34a51053010dd6205774d3d476c</update_guid>
+        <update_guid_history>e6fdd34a51053010dd6205774d3d476c:74454513</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Warehouse.My Obj">0e34691a2fd13010d589d7492799b6d6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-14 09:54:36</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>5e5b89d8af9a4d7aae97d7f887392664</sys_id>
+        <sys_metadata>6afdd34a2f053010d589d7492799b669</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Warehouse.My Obj</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_parent display_value="Camera">bdad134a2f053010d589d7492799b627</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_scope_delete display_value="">789dfa9f3c8742489e2ea1edeaad2139</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_6afdd34a2f053010d589d7492799b669</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_6afdd34a2f053010d589d7492799b669">aefdd34a2f053010d589d7492799b66c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-14 09:54:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="SN1" max_length="40" name="x_655585_whmg_sn1" sizeclass="14" type="collection">
+    <element extends="sys_import_set_row" label="SN1" max_length="40" name="x_655585_whmg_sn1" sizeclass="4" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_item" label="Item" max_length="40" name="u_item" reference="sc_cat_item" type="reference"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_quantity" label="Quantity" max_length="40" name="u_quantity" type="integer"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=u_ritm" label="RITM" max_length="40" name="u_ritm" reference="sc_req_item" type="reference"/>

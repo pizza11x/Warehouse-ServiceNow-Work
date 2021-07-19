@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>.contenitore {
+	padding: 25px;
+}
+
+.icone {
+  margin-top: 20px;
+	padding: 40px;
+  transition: background-color 1s;
+}
+
+.icone:hover {
+  border: solid #009c3d;
+  padding: 30px;
+  background-color: #dedede;
+}
+
+.navbar-inverse .navbar-nav &gt; .active &gt; a, .navbar-inverse .navbar-nav &gt; .active &gt; a:hover, .navbar-inverse .navbar-nav &gt; .active &gt; a:focus {
+  color: #ffffff;
+  background-color: #009c3d !important ;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>wh_homepage</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-12 15:53:04</sys_created_on>
+        <sys_id>f9f224712fd53010d589d7492799b6f4</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_name>wh_homepage</sys_name>
+        <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
+        <sys_update_name>sp_page_f9f224712fd53010d589d7492799b6f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-13 10:15:37</sys_updated_on>
+        <title>Warehouse Homepage</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=f9f224712fd53010d589d7492799b6f4"/>
+</record_update>
