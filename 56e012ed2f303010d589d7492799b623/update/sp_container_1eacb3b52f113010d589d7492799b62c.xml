@@ -5,7 +5,7 @@
         <background_style>default</background_style>
         <bootstrap_alt>false</bootstrap_alt>
         <class_name/>
-        <container_class_name/>
+        <container_class_name>cntLink</container_class_name>
         <name>Warehouse Homepage - Container 2</name>
         <order>2</order>
         <sp_page display_value="wh_homepage">f9f224712fd53010d589d7492799b6f4</sp_page>
@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-13 07:43:40</sys_created_on>
         <sys_id>1eacb3b52f113010d589d7492799b62c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Warehouse Homepage - Container 2</sys_name>
         <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
         <sys_policy/>
         <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
         <sys_update_name>sp_container_1eacb3b52f113010d589d7492799b62c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-13 09:19:01</sys_updated_on>
+        <sys_updated_on>2021-07-19 09:29:25</sys_updated_on>
         <title/>
         <width>container</width>
     </sp_container>

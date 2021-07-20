@@ -107,10 +107,10 @@ $( "#selectItem" ).change(function(){
 
 .cntTitle{
   margin: 0;
-  padding: 1%;
   color: black;
   background-color: #f5f5f5;
-  border: solid 2px #f5f5f5;
+  border-radius: 2%;
+  border: solid 5px #f5f5f5;
   text-weight: 1%;
   text-align: center;
 }
@@ -127,7 +127,7 @@ $( "#selectItem" ).change(function(){
 #maxQuantity{
   display: none;
  position: absolute;
-  right: 30%;
+  left: 53%;
   top: 68%;
 }
 
@@ -212,14 +212,14 @@ $( "#selectItem" ).change(function(){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-07-13 12:33:42</sys_created_on>
         <sys_id>be0f708a2fd13010d589d7492799b6f1</sys_id>
-        <sys_mod_count>367</sys_mod_count>
+        <sys_mod_count>374</sys_mod_count>
         <sys_name>Move to</sys_name>
         <sys_package display_value="Warehouse Management" source="x_655585_whmg">56e012ed2f303010d589d7492799b623</sys_package>
         <sys_policy/>
         <sys_scope display_value="Warehouse Management">56e012ed2f303010d589d7492799b623</sys_scope>
         <sys_update_name>sp_widget_be0f708a2fd13010d589d7492799b6f1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-19 09:03:04</sys_updated_on>
+        <sys_updated_on>2021-07-19 10:31:00</sys_updated_on>
         <template><![CDATA[<div class="container-fluid externalBox">
   <div class="cntTitle">
     <h3>
